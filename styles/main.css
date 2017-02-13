@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.nav {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	background-color: lightgray;
+	height: 55px;
+	border: .2px solid lightgray;
+}
+
+.navlist li{
+	display: inline;
+	padding-right: 20px;
+	float: right;
+	color: purple;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.logo{
+	display: inline;
+	color: black;
+	float:left;
+	font-size: 20px;
+}
+
+main{
+	margin-left: 100px;
+	margin-top: 70px;
+	width: 800px;
+}
+
+main img{
+	height: 20px;
+	width: 20px;
+}
+
+main ul{
+	margin-left: 0;
+	padding-left: 0;
+}
+input[type=submit]{
+	background-image: url('images/magnifying-glass.png');
+	background-image: contain;
+	width: 40px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+}
+
+.results-number{
+	border: 1px solid lightgrey;
+	border-radius: 4px;
+	height: 40px;
+	width: 300px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.results-number #before{
+	width: 33%;
+	float: left;
+	display: inline;
+}
+
+.results-number #after{
+	float: right;
+}
+
+a #role{
+	font-weight: bolder;
+}
+
+.results{
+	list-style: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: gray;
+	text-decoration: none;
+	margin-left: 0;
+}
+
+
